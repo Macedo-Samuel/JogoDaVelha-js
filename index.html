@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            margin: 0;
+            background-color: darkgray;
+        }
+        #content {
+            margin-top: 128px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 340px;
+            height: 340px;
+            background-color: #424242   ;
+        }
+        #content div {
+            background-color: darkgray;
+            width: 100px;
+            height: 100px;
+        }
+        #blk4,
+        #blk5,
+        #blk6,
+        #blk7,
+        #blk8,
+        #blk9 {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+   <div id="content">
+       <div id="blk1" onclick="onOff1()"></div>
+       <div id="blk2" onclick="onOff2()"></div>
+       <div id="blk3" onclick="onOff3()"></div>
+       <div id="blk4" onclick="onOff4()"></div>
+       <div id="blk5" onclick="onOff5()"></div>
+       <div id="blk6" onclick="onOff6()"></div>
+       <div id="blk7" onclick="onOff7()"></div>
+       <div id="blk8" onclick="onOff8()"></div>
+       <div id="blk9" onclick="onOff9()"></div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
